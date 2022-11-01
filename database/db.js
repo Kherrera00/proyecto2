@@ -4,7 +4,7 @@ const conexion = mysql.createConnection({
     user     : 'root',
     password : '123456',
     database : 'dbweb'  
-});
+}); 
 conexion.connect((error)=>{
     if (error) {
       console.error('El error de conexión es: ' + error);
