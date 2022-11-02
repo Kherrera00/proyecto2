@@ -8,7 +8,7 @@ router.get('/', (req, res)=>{
         if(error){
             throw error;
         } else {                       
-            res.render('index.ejs', {results:results});            
+            res.render('tabla.ejs', {results:results});            
         }   
     })
 })
